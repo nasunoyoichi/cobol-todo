@@ -1,0 +1,53 @@
+﻿# Dependencies
+node_modules/
+.pnpm-store/
+
+# Next.js
+.next/
+out/
+.vercel/
+
+# NestJS / Node.js build
+dist/
+build/
+coverage/
+.turbo/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# COBOL build artifacts
+cobol/bin/
+*.exe
+*.dll
+*.o
+*.obj
+
+# PostgreSQL local data
+docker/postgres/data/
+**/pgdata/
+
+# IDE / Editor
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
